@@ -1,4 +1,5 @@
 # iwd_theme
-Theme for Isaacson Web Development
+Custom Theme for Isaacson Web Development
+This is a sub-theme of the Classy base theme.
 
-This site is (soon to be) live at https://www.isaacsonwebdevelopment.com. This is a classy sub-theme.
+This site is live at https://www.isaacsonwebdevelopment.com.
