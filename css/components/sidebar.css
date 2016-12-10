@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Visual styles for Sidebars for IWD theme
+ */
+
+@media all and (min-width: 601px) {
+  .layout-sidebar-first {
+    float: left; /* LTR */
+    padding: 1%;
+    width: 23%;
+  }
+  [dir="rtl"] .layout-sidebar-first {
+    float: right;
+  }
+}
+

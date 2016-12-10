@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for IWD theme's Footer
+ */
+
+.region-footer {
+  clear: both;
+  margin-top: 1%;
+  padding-top: 1%;
+  text-align: center;
+}
+

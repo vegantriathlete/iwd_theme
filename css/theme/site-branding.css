@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for Classysub's Site Branding
+ */
+
+header {
+  background-color: #c3c3c3;
+}
+.site-slogan {
+  font-style: italic;
+}
+

@@ -1,0 +1,31 @@
+/**
+ * @file
+ * Visual styles for IWD theme's menu
+ */
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+}
+.region-primary-menu {
+  padding: 1% 2%;
+}
+@media all and (max-width: 600px) {
+  .region-primary-menu ul li {
+    font-size: 2em;
+    padding: 10px;
+  }
+}
+@media all and (min-width: 601px) {
+  .region-primary-menu ul li {
+    display: inline-block;
+    padding-right: 10px; /* LTR */
+  }
+  [dir="rtl"] .region-primary-menu-li {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+}
+ul.menu a.is-active {
+  color: #ddd;
+}

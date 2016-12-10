@@ -1,0 +1,25 @@
+/**
+ * @file
+ * Visual styles for IWD theme's item lists
+ */
+
+.path-portfolio .item-list li {
+  margin: 0;
+  padding: 0;
+}
+.path-portfolio .item-list li img {
+  border: 1px solid black;
+  height: auto;
+  width: 98%;
+}
+
+@media all and (min-width: 601px) {
+  .path-portfolio .item-list li {
+    display: inline-block;
+    margin-bottom: 1%;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-alignment: top;
+    width: 30%
+  }
+}

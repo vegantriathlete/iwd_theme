@@ -1,0 +1,29 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/base/base.css: {}
+    component:
+      css/components/footer.css: {}
+      css/components/item-list.css: {}
+      css/components/main-content.css: {}
+      css/components/menu.css: {}
+      css/components/node.css: {}
+      css/components/sidebar.css: {}
+      css/components/site-branding.css: {}
+    layout:
+      css/layout/layout.css: {}
+    state:
+      css/state/state.css: {}
+    theme:
+      css/theme/footer.css: {}
+      css/theme/menu.css: {}
+      css/theme/node.css: {}
+      css/theme/sidebar.css: {}
+      css/theme/site-branding.css: {}
+
+iwd.drupal.dialog:
+  version: 1.x
+  css:
+    theme:
+      css/components/dialog.css: {}

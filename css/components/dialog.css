@@ -1,0 +1,72 @@
+/**
+ * Presentational styles for Drupal dialogs.
+ * Taken from seven/css/components/dialog.css and tweaked slightly
+ */
+
+#drupal-modal ul {
+  list-style-type: disc;
+}
+.ui-dialog {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  z-index: 1260;
+  padding: 0;
+  box-shadow: 5px 5px 5px black;
+}
+@media all and (max-width: 48em) { /* 768px */
+  .ui-dialog {
+    min-width: 92%;
+    max-width: 92%;
+  }
+}
+.ui-dialog .ui-dialog-titlebar {
+  background: #a3a3a3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 15px 49px 15px 15px; /* LTR */
+}
+[dir="rtl"] .ui-dialog .ui-dialog-titlebar {
+  padding-left: 49px;
+  padding-right: 15px;
+}
+.ui-dialog .ui-dialog-title {
+  font-size: 1.231em;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  border: 0;
+  background: none;
+  right: 20px; /* LTR */
+  top: 20px;
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+}
+[dir="rtl"] .ui-dialog .ui-dialog-titlebar-close {
+  right: auto;
+  left: 20px;
+}
+.ui-dialog .ui-icon.ui-icon-closethick {
+  background: url(../../images/ex.svg) 0 0 no-repeat;
+  margin-top: -12px;
+}
+.ui-dialog .ui-widget-content.ui-dialog-content {
+  background: #e3e3e3;
+  overflow: auto;
+  padding: 1em;
+}
+.views-ui-dialog .ui-widget-content.ui-dialog-content {
+  padding: 0;
+}
+.ui-dialog .ui-dialog-content {
+  position: static;
+}
+.path-portfolio .ajax-progress-throbber {
+  display: none;
+}
+

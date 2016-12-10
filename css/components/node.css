@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for nodes for IWD theme
+ */
+
+.node__links {
+  text-align: right; /* LTR */
+}
+[dir="rtl"] .node__links {
+  text-align: left;
+}
+

@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Define state styling for IWD theme
+ */
+
+a:hover {
+  text-decoration: underline;
+}
+

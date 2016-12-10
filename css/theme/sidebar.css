@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for Sidebars for Classysub
+ */
+
+.region-sidebar-first {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px;
+  padding: 3%;
+}
+

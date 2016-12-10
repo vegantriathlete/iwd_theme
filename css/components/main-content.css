@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Visual styles for IWD theme's Main Content
+ */
+
+.path-portfolio ul {
+  list-style-type: none;
+}
+@media all and (min-width: 601px) {
+  .layout-with-sidebar .layout-content {
+    float: left; /* LTR */
+    margin-right: 1%; /* LTR */
+    width: 74%;
+  }
+  [dir="rtl"] .layout-with-sidebar .layout-content {
+    float: right;
+    margin-left: 1%;
+  }
+}
+

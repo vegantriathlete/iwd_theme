@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Visual styles for nodes for Classysub
+ */
+
+.node--view-mode-teaser h2 {
+  border-bottom: 1px solid #aaa;
+}
+

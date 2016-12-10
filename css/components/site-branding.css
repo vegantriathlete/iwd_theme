@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Visual styles for IWD theme's Site Branding
+ */
+
+.block-system-branding-block {
+  padding: 1rem 0;
+}
+.site-name {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+

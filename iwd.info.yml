@@ -1,0 +1,19 @@
+name: Isaacson Web Development
+type: theme
+description: 'A simple classy subtheme.'
+core: 8.x
+base theme: classy
+
+libraries:
+  - iwd/global-styling
+libraries-override:
+  classy/dialog:
+    iwd/iwd.drupal.dialog
+
+regions:
+  header: Header
+  primary_menu: 'Primary Menu'
+  help: Help
+  content: 'Main Content'
+  sidebar_first: Sidebar
+  footer: Footer
