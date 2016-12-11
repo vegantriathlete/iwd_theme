@@ -69,4 +69,6 @@
 .path-portfolio .ajax-progress-throbber {
   display: none;
 }
-
+.ui-widget {
+  font-family: Raleway, sans-serif;
+}
