@@ -6,7 +6,9 @@
 header {
   background-color: #c3c3c3;
 }
+.site-name {
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #999;
+}
 .site-slogan {
   font-style: italic;
 }
-
