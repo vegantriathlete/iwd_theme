@@ -3,7 +3,40 @@
  * Visual styles for Classysub's Footer
  */
 
-.region-footer {
-  border-top: 1px dashed #aaa;
+footer {
+  background-color: #a3a3a3;
+  padding: 1% 2%;
+}
+.region-footer h2 {
+  margin: 0;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+}
+.region-footer li {
+  display: inline-block;
+  margin: 0;
+}
+.region-footer li a {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  display: block;
+  height: 0;
+  margin-right: 16px;
+  overflow: hidden;
+  padding: 48px 0 0 0;
+  width: 48px;
+}
+.region-footer li a.github {
+  background-image: url(../../images/mark-github.svg);
+}
+.region-footer li a.drupal {
+  background-image: url(../../images/Druplicon.vector.svg);
+  width: 41px;
+}
+.region-footer li a.linkedin {
+  background-image: url(../../images/Linkedin_icon.svg);
 }
 

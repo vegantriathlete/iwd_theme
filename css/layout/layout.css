@@ -6,6 +6,7 @@ header {
   padding: 2%;
 }
 main {
+  min-height: 300px;
   padding: 2%;
 }
 
